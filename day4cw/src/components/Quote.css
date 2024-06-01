@@ -1,0 +1,29 @@
+.quote-container {
+    text-align: center;
+    border: 1px solid #4B5563; /* Tailwind's gray-500 */
+    padding: 16px; /* Tailwind's p-4 */
+    border-radius: 12px; /* Tailwind's rounded-lg */
+    width: 100%;
+    margin: 40px auto; /* Tailwind's m-10 */
+    height: 160px; /* Tailwind's h-40 */
+    max-width: 90%;
+}
+
+.quote-content {
+    border-radius: 12px; /* Tailwind's rounded-lg */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.quote-text {
+    margin-bottom: 16px; /* Tailwind's mb-4 */
+    font-weight: bold;
+    font-size: 1.25rem; /* Tailwind's text-xl */
+}
+
+.quote-author {
+    margin-top: 16px; /* Tailwind's mt-4 */
+}
